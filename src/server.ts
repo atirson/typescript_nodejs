@@ -12,4 +12,4 @@ app.get('/', (request, response) => {
   return response.json({ message: 'Teste Hello' });
 });
 
-app.listen(3333, () => console.log('Server is running!'));
+app.listen(3333, () => console.log('Server is running'));
